@@ -23,7 +23,10 @@ ul {
   justify-content: space-between;
 }
 a {
+  display: flex;
   color: white;
+  justify-content: start;
+  align-items: start;
 }
 img {
   width: 300px;
