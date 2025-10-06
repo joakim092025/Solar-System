@@ -4,12 +4,12 @@
   font-family: "Oswald", sans-serif;
 }
 header {
-  color: white;
-  width: 800px;
+  color: gold;
+  width: 1100px;
   display: grid;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px;
+  justify-content: start;
+  align-items: start;
+  padding: 30px;
 }
 body {
   background-image: url(./images/viktor-forgacs-Bvo2-SNi0rw-unsplash.jpg);
@@ -20,21 +20,30 @@ body {
 }
 ul {
   display: flex;
-  justify-content: space-between;
+  color: white;
+  justify-content: space-evenly;
 }
 a {
   display: flex;
   color: white;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 img {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
   width: 300px;
 }
 p {
   display: flex;
+  float: center;
+  margin: auto;
+  width: 40%;
   justify-content: start;
+  align-items: start;
   font-size: 18px;
+  text-align: start;
 }
 section {
   display: flex;
@@ -57,12 +66,18 @@ h1 {
 }
 h2 {
   display: flex;
+  color: gold;
   justify-content: start;
   padding: 40px;
-  font-size: 24px;
+  font-size: 32px;
 }
 h3 {
   display: flex;
-  justify-content: center;
-  padding: 20px;
+  color: gold;
+  justify-content: start;
+  font-size: 24px;
+}
+span {
+  display: flex;
+  text-align: start;
 }
