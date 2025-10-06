@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+header {
+  color: white;
+  width: 800px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+body {
+  background-image: url(./images/viktor-forgacs-Bvo2-SNi0rw-unsplash.jpg);
+  display: grid;
+  grid-template-columns: 100%;
+  color: white;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: white;
+}
+img {
+  width: 300px;
+}
+p {
+  display: flex;
+  justify-content: start;
+  font-size: 18px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  font-size: 50px;
+  justify-content: space-evenly;
+}
+h2 {
+  display: flex;
+  justify-content: start;
+  padding: 40px;
+  font-size: 24px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
